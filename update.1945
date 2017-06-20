@@ -1,4 +1,6 @@
 $update="NONE";
+/**
+$update="YES";
 $version="2017";
 $codename="MerdekaAtaoeMati";
 $releasedate="17 Agustus 2017";
@@ -6,3 +8,5 @@ $build="Juni 0.1";
 $status="Build";
 $author="shutdown57";
 $email="indonesianpeople.shutdown57@gmail.com";
+
+**/

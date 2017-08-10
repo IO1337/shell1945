@@ -1,0 +1,55 @@
++---------------+      +---------------+	| -] [ 1945v2017 Shell ]
+\ 1945 Sh3ll     \    /  /[INDONESIAN] /	| -] Author		: shutdown57 
+ \ version 2017   \  /   /[PEOPLE]/   /		| -] Version    : 2017
+  +----------------\/----------------+		| -] Release    : 17 Agustus 2017
+                   /\						| -] CodeName   : MerdekaAtauMati
+                  /  \						| -] 
+                 /    \						| -][-][-][-][-][-][-][-][-][-][-][-][-][-][-][-][-]
+                /      \					| -] 72 Indonesia Merdeka 72 Indonesia Merdeka
+              [shutdown57]					| -] 72 Indonesia Merdeka 72 Indonesia Merdeka
+[-------------------------------------------|----------------------------------------------------]
+[-------------------------------------------|----------------------------------------------------]
+
+* Home   		: FileManager
+* Sec. Info		: Security Info tentang server
+* Command		: Memasukan perintah menggunakan fungsi, system , shell_exec , passthru , exec , jadi pastikan server memiliki fungsi tersebut
+* Upload		: Kelebihannya bisa upload file secara multiple
+* SQL			: Koneksi ke Database SQL secara manual menggunakan SQL Command
+* PHP			: Menjalankan PHP Code menggunakan fungsi Eval()
+* PS			: Mengetahui Proccess Status
+* String Tools 	: String tools berisi encode decode hash
+* Remote Shell 	: Bind Port , BackConnect 
+* Mail			: Mengirim email menggunakan fungsi mail() di php
+* Ransomeware   : Hati hati menggunakan tools ini.
+* Kuchiyose		: Memanggil script / webshell dari luar
+ - WSO 2.5		
+ - B374k 2.8
+ - indoXploit v2
+ - 1945 v1
+ - Ayana Shahab Priv8 Shell
+ - linuXcodev2017
+ - WebAdmin
+ - Mini-Shell
+ - NoName Shell
+ - ITSecTeam
+ - c99 shell
+ - r57 shell
+ - symlink mobile
+ - Symlink Sa 3.0
+ - Adminer
+* List tools   	: Daftar  tools tentang server dan webshell
+ - Get Config   
+ - Grab cPanel 	
+ - Jumping       
+ - Symlink
+ - *.jpg shell (.htacess)
+ - Stamped site
+ - SMTP Grabber
+ - RDP Tools
+ - Admin Finder
+ - Fake root
+ - Mass Deface
+ - Zone-H
+* CGI Shell    : CGI Menggunakan bahasa pemrograman Bash Shell Scripting
+* CGI Perl	   : CGI Menggunakan bahasa pemrograman Perl
+* About		   : tentang webshell ini

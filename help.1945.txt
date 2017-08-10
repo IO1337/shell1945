@@ -1,12 +1,12 @@
-+---------------+      +---------------+	| -] [ 1945v2017 Shell ]
-\ 1945 Sh3ll     \    /  /[INDONESIAN] /	| -] Author		: shutdown57 
- \ version 2017   \  /   /[PEOPLE]/   /		| -] Version    : 2017
-  +----------------\/----------------+		| -] Release    : 17 Agustus 2017
-                   /\						| -] CodeName   : MerdekaAtauMati
-                  /  \						| -] 
-                 /    \						| -][-][-][-][-][-][-][-][-][-][-][-][-][-][-][-][-]
-                /      \					| -] 72 Indonesia Merdeka 72 Indonesia Merdeka
-              [shutdown57]					| -] 72 Indonesia Merdeka 72 Indonesia Merdeka
++---------------+      +---------------+    | -] [ 1945v2017 Shell ]
+\ 1945 Sh3ll     \    /  /[INDONESIAN] /    | -] Author		: shutdown57 
+ \ version 2017   \  /   /[PEOPLE]/   /     | -] Version    : 2017
+  +----------------\/----------------+      | -] Release    : 17 Agustus 2017
+                   /\                       | -] CodeName   : MerdekaAtauMati
+                  /  \                      | -] 
+                 /    \                     | -][-][-][-][-][-][-][-][-][-][-][-][-][-][-][-][-]
+                /      \                    | -] 72 Indonesia Merdeka 72 Indonesia Merdeka
+              [shutdown57]                  | -] 72 Indonesia Merdeka 72 Indonesia Merdeka
 [-------------------------------------------|----------------------------------------------------]
 [-------------------------------------------|----------------------------------------------------]
 

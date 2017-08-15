@@ -5,12 +5,13 @@
 @ Author         : shutdown57 < alinko >
 @ Codename       : MerdekaAtaoeMati
 @ Build          : Final 16 August 2k17
-@ Default U|P    : shutdown57|asukabeh
+@ Default U|P    : shutdown57|1945shell
 -----------------------------------------------
-@ Thanks & Greetings To  :
+@ Thanks For Support ! & Greetings To :
 @ RobinRoot - Silentc0ders - Con7ext - Panda Dot ID - xXx-ID
 @ CUMOL0 - Gorillaz.ID - maskamal - milio48 - ./R015 - 0xd3vs
 @ s4bun - GH057.ID - m1x - YouKnowWho - SyntaX404 - Bl@ckID
+@ LCR999X - Mr.Razier - ML7C - Ashura - Mr.DrimuEx196 
 @ JavaCodeRulez [JavCode] - IndoXploit - bug7sec
 -----------------------------------------------
 **/

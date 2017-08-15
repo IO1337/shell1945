@@ -1,14 +1,33 @@
-+---------------+      +---------------+    | -] [ 1945v2017 Shell ]
-\ 1945 Sh3ll     \    /  /[INDONESIAN] /    | -] Author		: shutdown57 
- \ version 2017   \  /   /[PEOPLE]/   /     | -] Version    : 2017
-  +----------------\/----------------+      | -] Release    : 17 Agustus 2017
-                   /\                       | -] CodeName   : MerdekaAtauMati
-                  /  \                      | -] 
-                 /    \                     | -][-][-][-][-][-][-][-][-][-][-][-][-][-][-][-][-]
-                /      \                    | -] 72 Indonesia Merdeka 72 Indonesia Merdeka
-              [shutdown57]                  | -] 72 Indonesia Merdeka 72 Indonesia Merdeka
-[-------------------------------------------|----------------------------------------------------]
-[-------------------------------------------|----------------------------------------------------]
+ _  ___  _  _  ____       ____   ___  _ _____   | Author  : shutdown57
+/ |/ _ \| || || ___|_   _|___ \ / _ \/ |___  |  |  IndonesianPeople.shutdown57@gmail.com
+| | (_) | || ||___ \ \ / / __) | | | | |  / /   | Version :  2017
+| |\__, |__   _|__) \ V / / __/| |_| | | / /    | Codename: MerdekaAtoeMati
+|_|  /_/   |_||____/ \_/ |_____|\___/|_|/_/     | @Github : github.com/alintamvanz/1945shell
++------------------------------------------------------------------------------------------------+
+
+
+# Login / Auth #!
+Default password : "asukabeh" (tanpa tanda kutip) di enskripsi dalam MD5
+Default username : shutdown57
+Hidden login     : TRUE or FALSE pada variable "$hidden_login" , jika TRUE halaman login shell tersembunyi 
+Show Hidden login: Pada variable $loguri_1945 = "?login=1945" berarti halaman login ada di shell.php?login=1956  
+
+# FILEMANAGER #!
+- Rename
+- Edit
+- Delete
+- Dump Hex
+- Download
+- Newfile
+- New Directory
+	* Mass / Multi file selected
+	- Multi delete files/dir
+	- Multi copy files
+	- Multi Chmod files
+	- Multi Cut files
+
+
+# MENU BAR #!
 
 * Home   		: FileManager
 * Sec. Info		: Security Info tentang server

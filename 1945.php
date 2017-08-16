@@ -10,8 +10,8 @@
 @ Thanks For Support ! & Greetings To :
 @ RobinRoot - Silentc0ders - Con7ext - Panda Dot ID - xXx-ID
 @ CUMOL0 - Gorillaz.ID - maskamal - milio48 - ./R015 - 0xd3vs
-@ s4bun - GH057.ID - m1x - YouKnowWho - SyntaX404 - Bl@ckID
-@ LCR999X - Mr.Razier - ML7C - Ashura - Mr.DrimuEx196 
+@ s4bun - GH057.ID - m1x - YouKnowWho - SyntaX404 - bL@cKID
+@ LCR999X - Mr.Razier - ML7C - Ashura - Mr.DrimuEx196 - CL0WN
 @ JavaCodeRulez [JavCode] - IndoXploit - bug7sec
 -----------------------------------------------
 **/

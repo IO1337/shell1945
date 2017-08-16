@@ -5,7 +5,7 @@
 @ Author         : shutdown57 < alinko >
 @ Codename       : MerdekaAtaoeMati
 @ Build          : Final 16 August 2k17
-@ Default U|P    : shutdown57|1945shell
+@ Default U|P    : shutdown57|asukabeh
 -----------------------------------------------
 @ Thanks For Support ! & Greetings To :
 @ RobinRoot - Silentc0ders - Con7ext - Panda Dot ID - xXx-ID

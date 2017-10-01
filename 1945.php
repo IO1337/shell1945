@@ -3,7 +3,7 @@
 -----------------------------------------------
 @ 1945 Shell - 1945v2017 Edition
 @ Author         : shutdown57 < alinko >
-@ Codename       : MerdekaAtaoeMati
+@ Codename       : Wake Me Up When September Ends
 @ Build          : September 2017
 @ Default U|P    : shutdown57|asukabeh
 -----------------------------------------------

